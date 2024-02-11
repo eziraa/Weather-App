@@ -1,0 +1,91 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Today's weather</title>
+    <style>
+        body{
+            height: 100%;
+            width: 100%;
+            background-image: url("{% static 'images/bg.jpg' %} ");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+            padding-top: 20px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px 10vw;
+        }
+        .contry-weather-data{
+            align-self: flex-end;
+        }
+
+        .search-container{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            border: 2px rgba(255, 255, 255, 0.712) solid;
+            padding: 10px 30px;
+            box-shadow: 0 0 12px black;
+            background-color: rgba(0, 0, 0, 0.221);
+            width: 25vw;
+        }
+        .temp-max{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="contry-weather-data">
+            <h3 class="country-temp">16°</h3>
+            <div class="country-info">
+                <h3>London</h3>
+                <p>06-09-Monday</p>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="tel" name="" id=""> 
+            <p>Weather Details</p>
+            <p>thunderstorm with light drizzle</p>
+            <div class="temp-max">
+                <span class="title">Temp Max</span>
+                <span class="value">19°</span>
+    
+            </div>
+            <div class="temp-max">
+                <span class="title">Temp Max</span>
+                <span class="value">19°</span>
+    
+            </div>
+            <div class="temp-max">
+                <span class="title">Temp Max</span>
+                <span class="value">19°</span>
+    
+            </div>
+            <div class="temp-max">
+                <span class="title">Temp Max</span>
+                <span class="value">19°</span>
+    
+            </div>
+            <div class="temp-max">
+                <span class="title">Temp Max</span>
+                <span class="value">19°</span>
+    
+            </div>
+            <div class="temp-max">
+                <span class="title">Temp Max</span>
+                <span class="value">19°</span>
+    
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -32,7 +32,20 @@
           </button>
         </div>
         <form>
+            <p>{{data}}</p>
   </center>
+  <div class="row">
+    {% if data.country_code %}
+    <div class="col-md-6 col-md-offset-3">
+      <h1>{{city}}</h1>
+      <h3>country code : {{data.country_code}}</h1>
+        <h5>coordinate : {{data.coordinate}}</h5>
+        <h5>temp : {{data.temp}}</h5>
+        <h5>pressure : {{data.pressure}} </h5>
+        <h5>humidity : {{data.humidity}}</h5>
+    </div>
+    {% endif %}
+  </div>
   <footer>
     <p>&copy; 2024 by <span class="author">Ezira Tigab</span> Weather App</p>
   </footer>
