@@ -21,8 +21,15 @@
             justify-content: space-between;
             padding: 20px 10vw;
         }
-        .contry-weather-data{
+        .weather-data{
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
             align-self: flex-end;
+            color: #fff;
+        }
+        .avg-temp{
+            font-size: 3rem;
         }
 
         .search-container{
@@ -58,10 +65,10 @@
 </head>
 <body>
     <div class="container">
-        <div class="contry-weather-data">
-            <h3 class="country-temp">16°</h3>
+        <div class="weather-data">
+            <h3 class="avg-temp"> {{city.avg_temp}}° </h3>
             <div class="country-info">
-                <h3>{{city.name}}</h3>
+                <h3>{{city.country}}</h3>
                 <p>{{city.date}}</p>
             </div>
         </div>

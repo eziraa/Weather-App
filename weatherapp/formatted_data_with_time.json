@@ -1,44 +1,43 @@
 {
     "coord": {
-        "lon": 38.0167,
-        "lat": 11.85
+        "lon": 38.7469,
+        "lat": 9.025
     },
     "weather": [
         {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
+            "id": 803,
+            "main": "Clouds",
+            "description": "broken clouds",
+            "icon": "04d"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 295.74,
-        "feels_like": 294.63,
-        "temp_min": 295.74,
-        "temp_max": 295.74,
-        "pressure": 1013,
-        "humidity": 22,
-        "sea_level": 1013,
-        "grnd_level": 750
+        "temp": 295.64,
+        "feels_like": 295.15,
+        "temp_min": 295.64,
+        "temp_max": 295.64,
+        "pressure": 1027,
+        "humidity": 46
     },
     "visibility": 10000,
     "wind": {
-        "speed": 3.75,
-        "deg": 282,
-        "gust": 3.65
+        "speed": 1.03,
+        "deg": 150
     },
     "clouds": {
-        "all": 0
+        "all": 75
     },
-    "dt": 1707649579,
+    "dt": 1707650361,
     "sys": {
+        "type": 1,
+        "id": 2453,
         "country": "ET",
-        "sunrise": "2024-02-11 03:50:57",
-        "sunset": "2024-02-11 15:33:32"
+        "sunrise": "2024-02-11 03:45:05",
+        "sunset": "2024-02-11 15:33:33"
     },
     "timezone": 10800,
-    "id": 339686,
-    "name": "Debre Tabor",
+    "id": 344979,
+    "name": "Addis Ababa",
     "cod": 200
 }

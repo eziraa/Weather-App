@@ -23,6 +23,7 @@ def index(request):
         city = {
             'country': json_data['sys']['country'],
             'date': datetime.now(),
+            'avg_temp': int(json_data['main']['temp']) - 273,
             'max_temp': int(json_data['main']['temp_max']) - 273,
             'min_temp': int(json_data['main']['temp_min']) - 273,
             'pressure': json_data['main']['pressure'],
