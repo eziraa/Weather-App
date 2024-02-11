@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 37.3908,
+        "lat": 11.5936
+    },
+    "weather": [
+        {
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 300.07,
+        "feels_like": 299.48,
+        "temp_min": 300.07,
+        "temp_max": 300.07,
+        "pressure": 1015,
+        "humidity": 29,
+        "sea_level": 1015,
+        "grnd_level": 831
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.14,
+        "deg": 347,
+        "gust": 1.7
+    },
+    "clouds": {
+        "all": 2
+    },
+    "dt": 1707643064,
+    "sys": {
+        "country": "ET",
+        "sunrise": 1707623591,
+        "sunset": 1707665778
+    },
+    "timezone": 10800,
+    "id": 342884,
+    "name": "Bahir Dar",
+    "cod": 200
+}

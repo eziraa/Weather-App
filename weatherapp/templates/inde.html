@@ -29,13 +29,28 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
-            border: 2px rgba(255, 255, 255, 0.712) solid;
             padding: 10px 30px;
             box-shadow: 0 0 12px black;
             background-color: rgba(0, 0, 0, 0.221);
             width: 25vw;
         }
-        .temp-max{
+        .search-container input{
+            padding: 5px;
+            border-radius: 3px;
+            border: none;
+        }
+        .weather-detail{
+            background-color: bisque;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .weather-detail .title{
+            font-size: 1.4rem;
+            padding: 5px;
+            line-height: 1.1;
+        }
+        .parameter{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -52,39 +67,38 @@
             </div>
         </div>
         <div class="search-container">
-            <input type="tel" name="" id=""> 
-            <p>Weather Details</p>
+            <input type="tel" name="" id="" placeholder="Search your country"> 
             <p>thunderstorm with light drizzle</p>
-            <div class="temp-max">
-                <span class="title">Temp Max</span>
-                <span class="value">19°</span>
-    
+            
+            <div class="weather-detail">
+                <p class="title">Weather Details</p>
+                <div class="parameter temp-max">
+                    <span class="name">Temp Max</span>
+                    <span class="value">19°</span>
+        
+                </div>
+                <div class="parameter temp-min">
+                    <span class="name">Temp Min</span>
+                    <span class="value">19°</span>
+        
+                </div>
+                <div class="parameter cloud">
+                    <span class="name">Humidity</span>
+                    <span class="value">19°</span>
+        
+                </div>
+                <div class="parameter cloud">
+                    <span class="name">Cloudity</span>
+                    <span class="value">19°</span>
+        
+                </div>
+                <div class="parameter wind">
+                    <span class="name">Wind</span>
+                    <span class="value">19°</span>
+        
+                </div>
             </div>
-            <div class="temp-max">
-                <span class="title">Temp Max</span>
-                <span class="value">19°</span>
-    
-            </div>
-            <div class="temp-max">
-                <span class="title">Temp Max</span>
-                <span class="value">19°</span>
-    
-            </div>
-            <div class="temp-max">
-                <span class="title">Temp Max</span>
-                <span class="value">19°</span>
-    
-            </div>
-            <div class="temp-max">
-                <span class="title">Temp Max</span>
-                <span class="value">19°</span>
-    
-            </div>
-            <div class="temp-max">
-                <span class="title">Temp Max</span>
-                <span class="value">19°</span>
-    
-            </div>
+            
         </div>
     </div>
 </body>
