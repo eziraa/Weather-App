@@ -1,48 +1,58 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
+ .container {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     padding: 20px 10vw;
+ }
 
-header {
-    background-color: #036006;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-}
+ .weather-data {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     align-self: flex-end;
+     color: #fff;
+ }
 
-main {
-    padding: 20px;
-}
+ .avg-temp {
+     font-size: 3rem;
+ }
 
-.location,
-.weather-info {
-    margin: 20px auto;
-        width: 40vw;
-}
+ .search-container {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     color: white;
+     padding: 10px 30px;
+     box-shadow: 0 0 12px black;
+     background-color: rgba(0, 0, 0, 0.573);
+     width: 25vw;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
 
-.location h2,
-.weather-info h2 {
-    font-size: 24px;
-}
+ .search-container input[type='text'] {
+     width: 18vw;
+ }
 
-.weather-icon {
-    text-align: center;
-}
+ .search-container input {
+     padding: 10px;
+     border-radius: 3px;
+     border: none;
+ }
 
-.temperature,
-.description {
-    margin-top: 10px;
-}
+ .weather-detail {
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+ }
 
-footer {
-    background-color: #4a3636;
-        color: rgb(175, 164, 164);
-    text-align: center;
-    padding: 5px 0;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        right: 0;
-}
+ .weather-detail .title {
+     font-size: 1.4rem;
+     padding: 5px;
+     line-height: 1.1;
+ }
+
+ .parameter {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }

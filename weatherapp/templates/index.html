@@ -5,63 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Today's weather</title>
-    <style>
-        body{
-            height: 100%;
-            width: 100%;
-            background-image: url("{% static 'images/' %}{{city.image}} ");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment: scroll;
-            padding-top: 20px;
-        }
-        .container{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            padding: 20px 10vw;
-        }
-        .weather-data{
-            display: flex;
-            flex-direction: row;
-            gap: 10px;
-            align-self: flex-end;
-            color: #fff;
-        }
-        .avg-temp{
-            font-size: 3rem;
-        }
-
-        .search-container{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-            padding: 10px 30px;
-            box-shadow: 0 0 12px black;
-            background-color: rgba(0, 0, 0, 0.221);
-            width: 25vw;
-        }
-        .search-container input{
-            padding: 5px;
-            border-radius: 3px;
-            border: none;
-        }
-        .weather-detail{
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-        .weather-detail .title{
-            font-size: 1.4rem;
-            padding: 5px;
-            line-height: 1.1;
-        }
-        .parameter{
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-    </style>
+   <link rel="stylesheet" href="{% static 'styles.css' %}">
+   <style>
+    body {
+    height: 100%;
+        width: 100%;
+        background-image: url("{% static 'images/' %}{{city.image}} ");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: scroll;
+        padding-top: 20px;
+    }
+   </style>
 </head>
 <body>
     <div class="container">
