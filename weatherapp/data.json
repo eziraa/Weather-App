@@ -1,44 +1,47 @@
 {
     "coord": {
-        "lon": 37.3908,
-        "lat": 11.5936
+        "lon": 39.7434,
+        "lat": 11.0816
     },
     "weather": [
         {
-            "id": 800,
-            "main": "Clear",
-            "description": "clear sky",
-            "icon": "01d"
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 300.92,
-        "feels_like": 299.96,
-        "temp_min": 300.92,
-        "temp_max": 300.92,
-        "pressure": 1013,
-        "humidity": 27,
-        "sea_level": 1013,
-        "grnd_level": 830
+        "temp": 296.91,
+        "feels_like": 296.7,
+        "temp_min": 296.91,
+        "temp_max": 296.91,
+        "pressure": 1015,
+        "humidity": 52,
+        "sea_level": 1015,
+        "grnd_level": 822
     },
     "visibility": 10000,
     "wind": {
-        "speed": 3.47,
-        "deg": 340,
-        "gust": 2.95
+        "speed": 4.51,
+        "deg": 94,
+        "gust": 2.84
+    },
+    "rain": {
+        "1h": 0.16
     },
     "clouds": {
-        "all": 1
+        "all": 26
     },
-    "dt": 1707647224,
+    "dt": 1707647600,
     "sys": {
         "country": "ET",
-        "sunrise": 1707623591,
-        "sunset": 1707665778
+        "sunrise": 1707622994,
+        "sunset": 1707665246
     },
     "timezone": 10800,
-    "id": 342884,
-    "name": "Bahir Dar",
+    "id": 333373,
+    "name": "Kombolcha",
     "cod": 200
 }
