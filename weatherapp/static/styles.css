@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.location,
+.weather-info {
+    margin-bottom: 20px;
+}
+
+.location h2,
+.weather-info h2 {
+    font-size: 24px;
+}
+
+.weather-icon {
+    text-align: center;
+}
+
+.temperature,
+.description {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
