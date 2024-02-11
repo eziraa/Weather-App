@@ -1,43 +1,44 @@
 {
     "coord": {
-        "lon": 38.7469,
-        "lat": 9.025
+        "lon": 37.3908,
+        "lat": 11.5936
     },
     "weather": [
         {
-            "id": 803,
-            "main": "Clouds",
-            "description": "broken clouds",
-            "icon": "04d"
+            "id": 800,
+            "main": "Clear",
+            "description": "clear sky",
+            "icon": "01d"
         }
     ],
     "base": "stations",
     "main": {
-        "temp": 295.64,
-        "feels_like": 295.15,
-        "temp_min": 295.64,
-        "temp_max": 295.64,
-        "pressure": 1027,
-        "humidity": 46
+        "temp": 302.01,
+        "feels_like": 300.63,
+        "temp_min": 302.01,
+        "temp_max": 302.01,
+        "pressure": 1011,
+        "humidity": 24,
+        "sea_level": 1011,
+        "grnd_level": 828
     },
     "visibility": 10000,
     "wind": {
-        "speed": 1.03,
-        "deg": 150
+        "speed": 4.89,
+        "deg": 346,
+        "gust": 4.42
     },
     "clouds": {
-        "all": 75
+        "all": 2
     },
-    "dt": 1707652125,
+    "dt": 1707652239,
     "sys": {
-        "type": 1,
-        "id": 2453,
         "country": "ET",
-        "sunrise": "2024-02-11 03:45:05",
-        "sunset": "2024-02-11 15:33:33"
+        "sunrise": "2024-02-11 03:53:11",
+        "sunset": "2024-02-11 15:36:18"
     },
     "timezone": 10800,
-    "id": 344979,
-    "name": "Addis Ababa",
+    "id": 342884,
+    "name": "Bahir Dar",
     "cod": 200
 }

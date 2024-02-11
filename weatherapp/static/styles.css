@@ -8,9 +8,10 @@
  .weather-data {
      display: flex;
      flex-direction: row;
-     gap: 10px;
+    gap: 20px;
      align-self: flex-end;
      color: #fff;
+    margin-left: 100px;
  }
 
  .avg-temp {
@@ -27,6 +28,7 @@
      background-color: rgba(0, 0, 0, 0.573);
      width: 25vw;
      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-bottom: 50px;
  }
 
  .search-container input[type='text'] {
