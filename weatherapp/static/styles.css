@@ -5,10 +5,11 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #036006;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
+    text-transform: uppercase;
 }
 
 main {
@@ -17,7 +18,8 @@ main {
 
 .location,
 .weather-info {
-    margin-bottom: 20px;
+    margin: 20px auto;
+        width: 40vw;
 }
 
 .location h2,
@@ -35,8 +37,12 @@ main {
 }
 
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #4a3636;
+        color: rgb(175, 164, 164);
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
 }
