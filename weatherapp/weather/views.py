@@ -1,6 +1,7 @@
 from django.shortcuts import render
 import urllib.request
 import json
+from datetime import datetime
 # Create your views here.
 
 
@@ -13,6 +14,17 @@ def index(request):
         json_data = json.loads(res)
         with open('data.json', 'w') as file:
             json.dump(json_data, file, indent=4)
+        city = {
+            'country': json_data['sys']['country'],
+            'date': datetime.now(),
+            'max_temp': int(json_data['main']['temp_max']) - 273,
+            'min_temp': int(json_data['main']['temp_min']) - 273,
+            'pressure': json_data['main']['pressure'],
+            'humidity': json_data['main']['humidity'],
+            'wind': json_data['wind']['speed'],
+            'description': json_data['weather'][0]['description'],
+        }
+        print(city)
     else:
-        json_data = ''
-    return render(request, 'inde.html', {'data': json_data})
+        city = ''
+    return render(request, 'index.html', {'city': city})
